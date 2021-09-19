@@ -1,0 +1,176 @@
+/*===================== LAYOUT SECTION =====================*/
+body{
+background-color:  #262626;
+margin: 0px;
+font-family:Raleway,Source Sans Pro;
+font-size: 15px;
+}
+/*===================== HEADER SECTION =====================*/
+#header{
+background-color:rgba(153, 0, 204,0.3);
+margin: 10px;
+border-radius: 10px;
+font-size: 200%;
+text-align: center;
+font-weight: bold;
+background: linear-gradient(green,black);
+color: #e6005c;
+text-shadow:7px 7px 7px black;
+line-height: 100px;
+float:center;
+/*position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);*/
+
+}
+/*===================== NAVIGATION SECTION =====================*/
+#nav1 ul{
+background-color:rgba(153, 0, 204,0.3);
+margin: 10px;
+border-radius: 10px;
+text-align: right;
+list-style: none;
+}
+#nav1 ul li{
+	display: inline;
+	padding: 20px;
+	line-height: 40px;
+}
+#nav1 ul li a{
+	text-decoration: none;
+		padding: 15px;
+	color: black;
+	font-weight: bold;
+}
+#nav1 ul li a:hover{
+	background-color:  #262626;
+	color: rgba(153, 0, 204,0.3);
+	border-radius: 10px;
+	text-shadow:1px 1px 1px #66ff66 ;
+}
+/*===================== MAIN SECTION =====================*/
+.main{
+	background-color: #8585e0;
+	margin: 10px;
+	margin-right:300px ;
+	padding: 15px;
+	padding-bottom: 58px;
+	border-radius: 10px;
+}
+#img{
+	widows: 170px;
+	height: 170px;
+	background-color: orange;
+	border-radius: 10px;
+}
+#code{
+	text-decoration: none;
+	color:#ff0000 ;
+	font-style: italic;
+	font-size:110% ;
+}
+#code:hover{
+	color: black ;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #66ff66;
+}
+/*===================== SIDEBAR SECTION =====================*/
+.sideright{
+	background-color: #8585e0;
+	margin: 10px;
+	margin-top: 0px;
+	padding: 15px;
+	border-radius: 10px;
+	float: right;
+	width: 280px;
+	clear: right;
+}
+#ref{
+	font-size: 80%;
+}
+.scroll{
+	overflow-y: scroll ;
+	height: 300px;
+}
+.img1{
+	width: 230px;
+	height: 230px;
+	border-radius: 50px;
+	opacity: 1.0;
+	transition: opacity 1s ease-in-out;
+}
+.img1:hover{
+   		opacity: 0.5;
+}
+.siderightimg{
+	margin: 10px;
+	margin-top: 0px;
+	border-radius: 10px;
+	float: right;
+	width: 250px;
+	clear: right;
+}
+.img2{
+	width: 250px;
+	height: 250px;
+	border-radius: 50px;
+	margin:auto ;
+	opacity: 1.0;
+	transition: opacity 1s ease-in-out;
+}
+.img2:hover{
+   	width: 600px;
+	height: 600px;
+}
+/*===================== FOOTER SECTION =====================*/
+#footer{
+background-color:rgba(153, 0, 204,0.3);
+margin: 10px;
+border-radius: 10px;
+clear: both;
+}
+#footer ul{
+margin: 10px;
+border-radius: 10px;
+text-align:center;
+list-style: none;
+}
+#footer ul li{
+	display: inline;
+	padding: 20px;
+	line-height: 40px;
+}
+#footer ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+#footer ul li a:hover{
+	color: rgba(153, 0, 204,0.3);
+	border-radius: 10px;
+	text-shadow:1px 1px 1px #66ff66 ;
+}
+#copyright{
+	text-align: center;
+	padding: 15px;
+	padding-top: 0px;
+	color: black;
+	font-weight: bold;
+}
+/*===================== HEADINGS SECTION =====================*/
+h1{
+	font-size: 140%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px blue;
+}
+h2{
+	font-size: 120%;
+	text-shadow:1px 1px 1px orange ;
+}
+h3{
+	font-size: 115%;
+	text-align: center;
+	text-shadow: 1px 1px 1px #66ff66;
+}
